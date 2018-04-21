@@ -35,17 +35,20 @@ border: 2px solid black;
 
 
 .column.side {
-    width: 15%;
+    width: 20%;
 }
 
 
 .column.middle {
-    width: 40%;
+    width: 30%;
 }
 
 .portfolio {
   background-color: lightgreen;
   border: 2px solid red;
+}
+.portfolio li{
+  padding: 5px;
 }
 .row {
 margin-top: 20px;
@@ -58,4 +61,11 @@ border: 2px solid black;
 .top{
   margin-right: 45px;
   width:87%;
+}
+.links {
+  text-decoration-color: pink;
+}
+.contacts{
+  text-decoration: underline;
+  color: blue;
 }
