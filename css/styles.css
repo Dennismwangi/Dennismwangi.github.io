@@ -1,0 +1,61 @@
+body,html {
+height: 100%;
+}
+body{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.background {
+
+  background-image: url("images/background2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+width:20%;
+height:200px;
+}
+
+table{
+margin-top: 20px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 2px;
+width: 100%;
+border: 2px solid black;
+}
+
+.column {
+    float: left;
+    padding: 50px;
+}
+
+
+.column.side {
+    width: 15%;
+}
+
+
+.column.middle {
+    width: 40%;
+}
+
+.portfolio {
+  background-color: lightgreen;
+  border: 2px solid red;
+}
+.row {
+margin-top: 20px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 5px;
+width: 90%;
+border: 2px solid black;
+}
+.top{
+  margin-right: 45px;
+  width:87%;
+}
